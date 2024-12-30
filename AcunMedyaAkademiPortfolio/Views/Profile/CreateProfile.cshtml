@@ -1,0 +1,30 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblProfile
+
+@{
+    ViewBag.Title = "CreateProfile";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Profil Ekleme</h2>
+<form method="post">
+    <label> Adı</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    <lable>Doğum Günü</lable>
+    @Html.TextBoxFor(x => x.Birtday, new { @class = "form-control" })
+    <br />
+    <lable> Adres</lable>
+    @Html.TextBoxFor(x => x.Adrees, new { @class = "form-control" })
+    <br />
+    <lable> Mail</lable>
+    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+    <br />
+    <lable> Telefon Numarası</lable>
+    @Html.TextBoxFor(x => x.Telefone, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Profili Kaydet</button>
+
+
+
+</form>
+

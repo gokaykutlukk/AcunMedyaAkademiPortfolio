@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+@*linq*@
+<div class="alert alert-danger">Kategori Sayısı = @ViewBag.categoryCount</div>
+<div class="alert alert-warning">Proje Sayısı = @ViewBag.projectCount</div>
+<div class="alert alert-succes">Yetenek Sayısı = @ViewBag.skillCount</div>
+<div class="alert alert-dark">Ortalama Yetenek Puanı = @ViewBag.skillAvgValue</div>
+<div class="alert alert-primary">Son Eklenen Yetenek = @ViewBag.lastSkillTitleName</div>
+<div class="alert alert-info">Asp .Net Mvc Proje Sayısı = @ViewBag.mvcCategoryProjectCount</div>

@@ -1,0 +1,23 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblService
+
+@{
+    ViewBag.Title = "CreateService";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Referans Ekleme</h2>
+<form method="post">
+    <label> Servis Adı</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    <lable>Servis Açıklaması</lable>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <lable> Servis Resmi</lable>
+    @Html.TextBoxFor(x => x.IconUrl, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Referansı Kaydet</button>
+
+
+
+</form>

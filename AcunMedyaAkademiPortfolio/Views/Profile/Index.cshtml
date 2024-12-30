@@ -1,0 +1,35 @@
+﻿@model List<AcunMedyaAkademiPortfolio.Models.TblProfile>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>İsim</th>
+        <th>Doğum Günü</th>
+        <th>Adres</th>
+        <th>Email</th>
+        <th>Telefon Numarası</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Profileld</td>
+            <td>@item.Name</td>
+            <td>@item.Birtday</td>
+            <td>@item.Adrees</td>
+            <td>@item.Email</td>
+            <td>@item.Telefone</td>
+            <td><a href="/Profile/UpdateProfile/@item.Profileld" class="btn btn-warning"> Güncelle</a></td>
+            <td><a href="/Profile/DeleteProfile/@item.Profileld" class="btn btn-danger"> Sil</a></td>
+        </tr>
+    }
+
+</table>
+
+<td><a href="/Profile/CreateProfile/" class="btn btn-primary">Yeni Profil Ekle</a></td>
