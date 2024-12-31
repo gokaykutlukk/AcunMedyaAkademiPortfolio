@@ -1,0 +1,20 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblFeature
+@{
+    ViewBag.Title = "UpdateFeature";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Özellik ekleme</h2>
+<form method="post">
+    <label>Yeni Özellik Id</label>
+    @Html.TextBoxFor(x => x.FeatureId, new { @class = "form-control" })
+    <label>Yeni Özellik Adı</label>
+    @Html.TextBoxFor(x => x.FeatureTitle, new { @class = "form-control" })
+    <label>Yeni Özellik Başlık</label>
+    @Html.TextBoxFor(x => x.FeatureSubtitle, new { @class = "form-control" })
+    <label>Yeni Özellik Resmi</label>
+    @Html.TextBoxFor(x => x.FeatureImageUr1, new { @class = "form-control" })
+    <button class="btn btn-info">Yeni Özellik Kaydet</button>
+
+</form>
+

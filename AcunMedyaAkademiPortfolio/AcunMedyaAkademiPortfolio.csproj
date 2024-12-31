@@ -407,13 +407,17 @@
     <Content Include="Views\Profile\UpdateProfile.cshtml" />
     <Content Include="Views\Profile\CreateProfile.cshtml" />
     <Content Include="Views\Hobby\Index.cshtml" />
+    <Content Include="Views\Hobby\CreateHobby.cshtml" />
+    <Content Include="Views\Hobby\UpdateHobby.cshtml" />
+    <Content Include="Views\Feature\Index.cshtml" />
+    <Content Include="Views\Feature\CreateFeature.cshtml" />
+    <Content Include="Views\Feature\UpdateFeature.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\About\" />
     <Folder Include="Views\Adress\" />
     <Folder Include="Views\Banner\" />
-    <Folder Include="Views\Feature\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
