@@ -406,6 +406,7 @@
     <Content Include="Views\Profile\Index.cshtml" />
     <Content Include="Views\Profile\UpdateProfile.cshtml" />
     <Content Include="Views\Profile\CreateProfile.cshtml" />
+    <Content Include="Views\Hobby\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -413,7 +414,6 @@
     <Folder Include="Views\Adress\" />
     <Folder Include="Views\Banner\" />
     <Folder Include="Views\Feature\" />
-    <Folder Include="Views\Hobby\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
