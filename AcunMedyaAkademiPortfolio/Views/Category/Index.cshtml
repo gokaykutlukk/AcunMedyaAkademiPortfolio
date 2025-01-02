@@ -1,12 +1,26 @@
-﻿
+﻿@model List<AcunMedyaAkademiPortfolio.Models.TblCategory>
 @{
     ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
 }
 
-<h3>Merhaba dünya </h3>
-<h4>Portfolio</h4>
-<div style="background-color:aqua">bir divdir</div>
-<br />
-<div style="background-color:aqua">bir divdir</div>
-<a href="http://www.google.com">gogola git</a>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th> Kategori Adı</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryId</td>
+            <td>@item.CategoryName</td>
+            <td><a href="/Category/UpdateCategory/@item.CategoryId" class="btn btn-warning"> Güncelle</a></td>
+            <td><a href="/Category/DeleteCategoey/@item.CategoryId" class="btn btn-danger"> Sil</a></td>
+        </tr>
+    }
 
+</table>
+
+<td><a href="/Contact/CreateContact/" class="btn btn-primary">Yeni Kategori Ekle</a></td>

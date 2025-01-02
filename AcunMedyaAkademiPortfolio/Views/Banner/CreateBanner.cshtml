@@ -1,0 +1,19 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblBanner
+
+@{
+    ViewBag.Title = "CreateBanner";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Afiş ekleme</h2>
+<form method="post">
+    <label>Başlık</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <label>Açıklama</label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <label>Resim</label>
+    @Html.TextBoxFor(x => x.İmageUrl, new { @class = "form-control" })
+    <button class="btn btn-info">Afiş Kaydet</button>
+
+</form>
+

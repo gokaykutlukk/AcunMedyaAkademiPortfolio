@@ -1,0 +1,23 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblContact
+
+@{
+    ViewBag.Title = "UpdateContact";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni İletişim ekleme</h2>
+<form method="post">
+    <label>İletişim Adı</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <label>Mail</label>
+    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+    <label>Konu</label>
+    @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+    <label>Açıklama</label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <label>Tarih</label>
+    @Html.TextBoxFor(x => x.CreatDate, new { @class = "form-control" })
+    <button class="btn btn-info">Özellik Güncelle</button>
+
+</form>
+

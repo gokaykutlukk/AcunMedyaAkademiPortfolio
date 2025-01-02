@@ -282,10 +282,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Category\Index.cshtml" />
-    <Content Include="Views\Contact\Index.cshtml" />
-    <Content Include="Views\Contact\SendMessage.cshtml" />
-    <Content Include="Views\Contact\MessageList.cshtml" />
     <Content Include="Template\sidebar-07\.DS_Store" />
     <Content Include="Template\sidebar-07\css\.DS_Store" />
     <Content Include="Template\sidebar-07\css\bootstrap\.DS_Store" />
@@ -412,12 +408,25 @@
     <Content Include="Views\Feature\Index.cshtml" />
     <Content Include="Views\Feature\CreateFeature.cshtml" />
     <Content Include="Views\Feature\UpdateFeature.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Contact\CreateContact.cshtml" />
+    <Content Include="Views\Contact\UpdateContact.cshtml" />
+    <Content Include="Views\Category\Index.cshtml" />
+    <Content Include="Views\Category\CreateCategory.cshtml" />
+    <Content Include="Views\Category\UpdateCategory.cshtml" />
+    <Content Include="Views\Banner\Index.cshtml" />
+    <Content Include="Views\Banner\CreateBanner.cshtml" />
+    <Content Include="Views\Banner\UpdateBanner.cshtml" />
+    <Content Include="Views\Adress\Index.cshtml" />
+    <Content Include="Views\Adress\CreateAdress.cshtml" />
+    <Content Include="Views\Adress\UpdateAdress.cshtml" />
+    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\About\CreateAbout.cshtml" />
+    <Content Include="Views\About\UpdateAbout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\About\" />
-    <Folder Include="Views\Adress\" />
-    <Folder Include="Views\Banner\" />
+    <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
