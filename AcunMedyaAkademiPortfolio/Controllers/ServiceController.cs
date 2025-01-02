@@ -24,9 +24,14 @@ namespace AcunMedyaAkademiPortfolio.Controllers
         [HttpPost]
         public ActionResult CreateService(TblService p)
         {
-            db.TblService.Add(p);
-            db.SaveChanges();
-            return RedirectToAction("Index");
+            { // URL formatında simge alınıyor, veritabanına kaydediliyor
+                if (!string.IsNullOrEmpty(p.IconUrl))
+                {
+                    db.TblService.Add(p);
+                    db.SaveChanges();
+                }
+                return RedirectToAction("Index");
+            }
         }
         public ActionResult DeleteService(int id)
         {
