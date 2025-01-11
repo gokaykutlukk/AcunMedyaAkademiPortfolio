@@ -6,6 +6,8 @@
 
 <h2>Yeni İletişim ekleme</h2>
 <form method="post">
+    <label>Id</label>
+    @Html.TextBoxFor(x => x.AdressId, new { @class = "form-control" })
     <label>Adres</label>
     @Html.TextBoxFor(x => x.Adress, new { @class = "form-control" })
     <label>Mail</label>

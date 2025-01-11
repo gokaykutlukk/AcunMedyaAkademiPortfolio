@@ -27,7 +27,7 @@ namespace AcunMedyaAkademiPortfolio.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-        public ActionResult DeletProfile(int id)
+        public ActionResult DeleteProfile(int id)
         {
             var value = db.TblProfile.Find(id);
             db.TblProfile.Remove(value);

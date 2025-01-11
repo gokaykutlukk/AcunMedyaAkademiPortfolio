@@ -1,0 +1,37 @@
+﻿@model List<AcunMedyaAkademiPortfolio.Models.TblContact>
+
+@foreach (var item in Model)
+{
+<div class="col-md-8">
+    <form action="/Default/Index/" method="post" class="bg-light p-4 p-md-5 contact-form">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ad - Soyad" name="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="E-Posta" name="Email">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Konu" name="Subject">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <textarea cols="30" rows="7" class="form-control" placeholder="Mesaj" name="Description"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="submit" value="Gönder" class="btn btn-primary py-3 px-5">
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+}

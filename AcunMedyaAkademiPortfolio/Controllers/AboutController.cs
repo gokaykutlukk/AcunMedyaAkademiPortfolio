@@ -46,7 +46,6 @@ namespace AcunMedyaAkademiPortfolio.Controllers
         public ActionResult UpdateAbout(TblAbout p)
         {
             var value = db.TblAbout.Find(p.Aboutld);
-            value.Aboutld = p.Aboutld;
             value.Description = p.Description;
             value.Title = p.Title;
             value.ImageUrl = p.ImageUrl;
