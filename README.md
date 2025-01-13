@@ -55,25 +55,34 @@ p
     🔥Yazılım geliştirme süreçlerinde versiyon kontrolü ve proje yönetimi konularında ilerleme kaydettim.
     <br/>
     🔥Bu proje, yazılım geliştirme kariyerimde önemli bir dönüm noktası oldu ve profesyonel projeler geliştirmek için güçlü bir temel oluşturdu.
-
+## 🌙ANASAYFA
 ![Ekran görüntüsü 2025-01-13 183603](https://github.com/user-attachments/assets/8a8b7ef4-e1f7-4729-903a-82dee5ddb358)
 <br/>
+## 🌙İSTATİSTİKLER VE KİŞİSEL BİLGİLERİM
 ![Ekran görüntüsü 2025-01-13 183626](https://github.com/user-attachments/assets/e7209368-fb4c-4b18-b0be-a9388f7ac8ac)
 <br/>
+## 🌙YETENEKLERİM
 ![Ekran görüntüsü 2025-01-13 183643](https://github.com/user-attachments/assets/1999613f-affb-42fc-a691-c26eebb38dd3)
 <br/>
+## 🌙HİZMETLERİM
 ![Ekran görüntüsü 2025-01-13 183700](https://github.com/user-attachments/assets/40d0ed4d-7e4b-489f-8d33-ef409dbdc7e5)
 <br/>
+## 🌙PROJELERİMİZ
 ![Ekran görüntüsü 2025-01-13 183739](https://github.com/user-attachments/assets/d10a654e-562b-4f68-9e25-5e202ec364d1)
 <br/>
+## 🌙REFERANSLARIM
 ![Ekran görüntüsü 2025-01-13 183753](https://github.com/user-attachments/assets/3b0956f6-9543-4e37-846e-565621777315)
 <br/>
+## 🌙İLETİŞİM VE MESAJ GÖNDERME 
 ![Ekran görüntüsü 2025-01-13 190024](https://github.com/user-attachments/assets/c9bbf14b-d857-4587-8d26-481c221d6a77)
 <br/>
+## 🌙PROJE KONTROL PANELİ
 ![Ekran görüntüsü 2025-01-13 184123](https://github.com/user-attachments/assets/0cffd708-9281-4635-9e49-63d0f80e10aa)
 <br/>
+## 🌙YENİ PROJE EKLEME PANELİ
 ![Ekran görüntüsü 2025-01-13 184148](https://github.com/user-attachments/assets/94af9ad6-033e-4dd6-b11e-412342122da0)
 <br/>
+## 🌙PROJE GÜNCELLEME PANELİ
 ![Ekran görüntüsü 2025-01-13 184135](https://github.com/user-attachments/assets/90919630-561a-4256-a66d-b7dc5c8b6199)
 
 
