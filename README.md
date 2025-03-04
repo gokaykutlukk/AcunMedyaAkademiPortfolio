@@ -1,4 +1,4 @@
-"C# ile Programlamaya Giriş" Eğitimi - 2. Proje
+"C# ile Programlamaya Giriş" Eğitimi - 1. Proje
 
 # Kişisel Portfolyo Web Sitesi
 Bu proje, Acun Medya Akademi’de Murat Yücedağ’ın "C# ile Programlamaya Giriş" Eğitimi kapsamında geliştirdiğim ilk projedir. .NET MVC mimarisi kullanılarak tasarlanmış işlevsel ve kullanıcı odaklı bir web sitesidir. Yazılım geliştirme alanındaki bilgi ve becerilerimi pratikte uygulayarak daha da geliştirmemi sağlamıştır.
